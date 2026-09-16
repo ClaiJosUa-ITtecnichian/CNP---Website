@@ -1,0 +1,19 @@
+Coloca aqui as fotos dos professores.
+
+Formato recomendado: JPG ou WebP
+Dimensão ideal: 400×400 px (quadrado)
+Tamanho máximo: 200 KB por foto
+
+Sugestão de nomes:
+  professor-nome1.jpg
+  professor-nome2.jpg
+  professor-nome3.jpg
+
+Depois de adicionares as fotos, substitui no index.html os blocos:
+  <div class="img-placeholder img-placeholder--avatar">
+      <i class="fas fa-user"></i>
+      <span>Foto</span>
+  </div>
+
+Por:
+  <img src="assets/images/team/professor-nome1.jpg" alt="Prof. Nome — Disciplina" width="400" height="400" loading="lazy" />

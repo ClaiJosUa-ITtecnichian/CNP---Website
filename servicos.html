@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Serviços — Ciência no Ponto. Aulas de Matemática, Física, Química e Informática, online e presenciais." />
+  <title>Serviços — Ciência no Ponto</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="navbar__container">
+      <a href="index.html" class="navbar__brand" aria-label="Ciência no Ponto — início">
+        <img src="assets/images/1000420528.jpg" alt="Logo Ciência no Ponto" class="navbar__logo" />
+        <span class="navbar__brand-text">Ciência<span class="accent"> no Ponto</span></span>
+      </a>
+
+      <button class="navbar__hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="navbar__menu" id="nav-menu" aria-label="Navegação principal">
+        <ul class="navbar__list">
+          <li><a href="index.html" class="navbar__link">Início</a></li>
+          <li><a href="sobre.html" class="navbar__link">Sobre Nós</a></li>
+          <li><a href="servicos.html" class="navbar__link active">Serviços</a></li>
+          <li><a href="redes.html" class="navbar__link">Redes Sociais</a></li>
+          <li><a href="marcar-aula.html" class="navbar__link navbar__link--cta">Marcar Aula</a></li>
+        </ul>
+      </nav></div>
+  </header>
+
+  <main>
+
+    <div class="page-banner">
+      <div class="page-banner__container">
+        <span class="section__badge">Serviços</span>
+        <h1 class="page-banner__title">O que oferecemos</h1>
+        <p class="page-banner__subtitle">Escolhe a disciplina e o formato que melhor se adapta às tuas necessidades.</p>
+      </div>
+    </div>
+
+    <section class="section servicos" id="servicos" aria-labelledby="servicos-title">
+      <div class="container">
+
+        <div class="disciplinas__grid">
+
+          <!-- Matemática -->
+          <article class="disciplina-card">
+            <div class="disciplina-card__header disciplina-card__header--mat">
+              <i class="fas fa-calculator disciplina-card__icon"></i>
+              <h3 class="disciplina-card__title">Matemática</h3>
+            </div>
+            <div class="disciplina-card__body">
+              <ul class="disciplina-card__list">
+                <li><i class="fab fa-youtube"></i> Aulas gratuitas no YouTube</li>
+                <li><i class="fas fa-video"></i> Aulas premium gravadas</li>
+                <li><i class="fas fa-user"></i> Explicações individuais</li>
+                <li><i class="fas fa-users"></i> Grupos reduzidos</li>
+                <li><i class="fas fa-trophy"></i> Prep. exame admissão</li>
+              </ul>
+              <div class="disciplina-card__actions">
+                <a href="https://www.youtube.com/playlist?list=PLQqAK1beIrzw" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--outline">
+                  <i class="fab fa-youtube"></i> Ver Playlist
+                </a>
+                <a href="https://wa.me/258857943333?text=Olá!%20Tenho%20interesse%20em%20aulas%20de%20Matemática." target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--primary">
+                  Inscrever-me
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Física -->
+          <article class="disciplina-card">
+            <div class="disciplina-card__header disciplina-card__header--fis">
+              <i class="fas fa-atom disciplina-card__icon"></i>
+              <h3 class="disciplina-card__title">Física</h3>
+            </div>
+            <div class="disciplina-card__body">
+              <ul class="disciplina-card__list">
+                <li><i class="fab fa-youtube"></i> Aulas gratuitas no YouTube</li>
+                <li><i class="fas fa-video"></i> Aulas premium gravadas</li>
+                <li><i class="fas fa-user"></i> Explicações individuais</li>
+                <li><i class="fas fa-users"></i> Grupos reduzidos</li>
+                <li><i class="fas fa-trophy"></i> Prep. exame admissão</li>
+              </ul>
+              <div class="disciplina-card__actions">
+                <a href="https://youtube.com/playlist?list=PLT2udzHPcY40" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--outline">
+                  <i class="fab fa-youtube"></i> Ver Playlist
+                </a>
+                <a href="https://wa.me/258857943333?text=Olá!%20Tenho%20interesse%20em%20aulas%20de%20Física." target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--primary">
+                  Inscrever-me
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Química -->
+          <article class="disciplina-card">
+            <div class="disciplina-card__header disciplina-card__header--qui">
+              <i class="fas fa-flask disciplina-card__icon"></i>
+              <h3 class="disciplina-card__title">Química</h3>
+            </div>
+            <div class="disciplina-card__body">
+              <ul class="disciplina-card__list">
+                <li><i class="fab fa-youtube"></i> Aulas gratuitas no YouTube</li>
+                <li><i class="fas fa-video"></i> Aulas premium gravadas</li>
+                <li><i class="fas fa-user"></i> Explicações individuais</li>
+                <li><i class="fas fa-users"></i> Grupos reduzidos</li>
+                <li><i class="fas fa-trophy"></i> Prep. exame admissão</li>
+              </ul>
+              <div class="disciplina-card__actions">
+                <a href="https://youtube.com/playlist?list=PLGgWKidWdRBk" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--outline">
+                  <i class="fab fa-youtube"></i> Ver Playlist
+                </a>
+                <a href="https://wa.me/258857943333?text=Olá!%20Tenho%20interesse%20em%20aulas%20de%20Química." target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--primary">
+                  Inscrever-me
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Informática -->
+          <article class="disciplina-card">
+            <div class="disciplina-card__header disciplina-card__header--inf">
+              <i class="fas fa-laptop-code disciplina-card__icon"></i>
+              <h3 class="disciplina-card__title">Informática</h3>
+            </div>
+            <div class="disciplina-card__body">
+              <ul class="disciplina-card__list">
+                <li><i class="fab fa-youtube"></i> Aulas gratuitas no YouTube</li>
+                <li><i class="fas fa-video"></i> Aulas premium gravadas</li>
+                <li><i class="fas fa-user"></i> Explicações individuais</li>
+                <li><i class="fas fa-users"></i> Grupos reduzidos</li>
+                <li><i class="fas fa-trophy"></i> Prep. exame admissão</li>
+              </ul>
+              <div class="disciplina-card__actions">
+                <a href="https://youtube.com/playlist?list=PLLnMB-NRNrUc" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--outline">
+                  <i class="fab fa-youtube"></i> Ver Playlist
+                </a>
+                <a href="https://wa.me/258857943333?text=Olá!%20Tenho%20interesse%20em%20aulas%20de%20Informática." target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--primary">
+                  Inscrever-me
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Contabilidade -->
+          <article class="disciplina-card">
+            <div class="disciplina-card__header disciplina-card__header--cont">
+              <i class="fas fa-calculator disciplina-card__icon"></i>
+              <h3 class="disciplina-card__title">Contabilidade</h3>
+            </div>
+            <div class="disciplina-card__body">
+              <ul class="disciplina-card__list">
+                <li><i class="fab fa-youtube"></i> Aulas gratuitas no YouTube</li>
+                <li><i class="fas fa-video"></i> Aulas premium gravadas</li>
+                <li><i class="fas fa-user"></i> Explicações individuais</li>
+                <li><i class="fas fa-users"></i> Grupos reduzidos</li>
+                <li><i class="fas fa-trophy"></i> Prep. exame admissão</li>
+              </ul>
+              <div class="disciplina-card__actions">
+                <a href="https://youtube.com/playlist?list=PLTPJKLlsq69o" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--outline">
+                  <i class="fab fa-youtube"></i> Ver Playlist
+                </a>
+                <a href="https://wa.me/258857943333?text=Olá!%20Tenho%20interesse%20em%20aulas%20de%20Contabilidade." target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--primary">
+                  Inscrever-me
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="section__header section__header--inner">
+          <h3 class="section__title--sm">Planos e Preços</h3>
+          <p class="section__subtitle">Opções flexíveis para cada tipo de aluno.</p>
+        </div>
+
+        <div class="planos__grid">
+
+          <div class="plano-card">
+            <div class="plano-card__badge">Gratuito</div>
+            <h4 class="plano-card__name">Online Livre</h4>
+            <div class="plano-card__price">
+              <span class="price-value">Grátis</span>
+            </div>
+            <ul class="plano-card__features">
+              <li><i class="fas fa-check"></i> Acesso a todas as aulas gratuitas no YouTube</li>
+              <li><i class="fas fa-check"></i> Fichas de exercícios em descrição dos vídeos</li>
+              <li><i class="fas fa-check"></i> Comentários e respostas a dúvidas</li>
+              <li class="inactive"><i class="fas fa-times"></i> Aulas privadas ao vivo</li>
+              <li class="inactive"><i class="fas fa-times"></i> Acompanhamento personalizado</li>
+            </ul>
+            <a href="https://www.youtube.com/@AlbinoAlberto-jm5zz" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--full">
+              <i class="fab fa-youtube"></i> Subscrever Canal
+            </a>
+          </div>
+
+          <div class="plano-card plano-card--featured">
+            <div class="plano-card__badge plano-card__badge--popular">Mais Popular</div>
+            <h4 class="plano-card__name">Explicações Presenciais</h4>
+            <div class="plano-card__price">
+              <span class="price-value">Consultar</span>
+              <span class="price-period">preço</span>
+            </div>
+            <ul class="plano-card__features">
+              <li><i class="fas fa-check"></i> Sessões individuais ou em grupo</li>
+              <li><i class="fas fa-check"></i> Resolução de dúvidas em tempo real</li>
+              <li><i class="fas fa-check"></i> Material de estudo personalizado</li>
+              <li><i class="fas fa-check"></i> Acompanhamento de evolução</li>
+              <li><i class="fas fa-check"></i> Acesso às aulas do YouTube</li>
+            </ul>
+            <a href="https://wa.me/258857943333?text=Olá!%20Quero%20saber%20mais%20sobre%20as%20explicações%20presenciais." target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--full">
+              Marca a tua Aula
+            </a>
+          </div>
+
+          <div class="plano-card">
+            <div class="plano-card__badge">Intensivo</div>
+            <h4 class="plano-card__name">Preparação para Admissão</h4>
+            <div class="plano-card__price">
+              <span class="price-value">Consultar</span>
+              <span class="price-period">preço</span>
+            </div>
+            <ul class="plano-card__features">
+              <li><i class="fas fa-check"></i> Programa focado no exame específico</li>
+              <li><i class="fas fa-check"></i> Simulações e provas de treino</li>
+              <li><i class="fas fa-check"></i> Estratégias de resolução rápida</li>
+              <li><i class="fas fa-check"></i> Sessões intensivas semanais</li>
+              <li><i class="fas fa-check"></i> Suporte via WhatsApp</li>
+            </ul>
+            <a href="https://wa.me/258857943333?text=Olá!%20Quero%20informações%20sobre%20a%20preparação%20para%20admissão." target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--full">
+              Saber Mais
+            </a>
+          </div>
+
+        </div>
+
+        <div class="cta-banner">
+          <div class="cta-banner__content">
+            <h3>Pronto para começar?</h3>
+            <p>Fala connosco agora mesmo e marca a tua primeira aula.</p>
+          </div>
+          <a href="https://wa.me/258857943333?text=Olá!%20Quero%20saber%20mais%20sobre%20os%20vossos%20serviços." target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--lg">
+            <i class="fab fa-whatsapp"></i> Falar no WhatsApp
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__brand">
+        <a href="index.html" class="navbar__brand footer__brand-link" aria-label="Ciência no Ponto">
+          <img src="assets/images/1000420528.jpg" alt="Logo Ciência no Ponto" class="navbar__logo navbar__logo--footer" />
+          <span class="navbar__brand-text">Ciência<span class="accent"> no Ponto</span></span>
+        </a>
+        <p>Educação científica de qualidade, online e presencial.</p>
+        <div class="footer__socials">
+          <a href="https://www.youtube.com/@AlbinoAlberto-jm5zz" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.instagram.com/cien_cianoponto3?igsh=NXdtbTJ2azNxZTk3" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61561754653586" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.tiktok.com/@ciencia.no.ponto" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <nav class="footer__nav" aria-label="Mapa do site">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="redes.html">Redes Sociais</a></li>
+          <li><a href="marcar-aula.html#horarios">Horários</a></li>
+          <li><a href="marcar-aula.html">Marcar Aula</a></li>
+        </ul>
+      </nav>
+      <div class="footer__contact">
+        <h4>Contacto</h4>
+        <p><i class="fab fa-whatsapp"></i> +258 857 943 333</p>
+        <p><i class="fas fa-envelope"></i> albinoalberto500@gmail.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Moçambique, Maputo, Bagamoyo</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Ciência no Ponto. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/258857943333?text=Olá!%20Vim%20pelo%20website%20e%20gostaria%20de%20mais%20informações."
+    target="_blank" rel="noopener noreferrer"
+    class="whatsapp-float" id="whatsappFloat"
+    aria-label="Abrir conversa no WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="whatsapp-float__tooltip">Fala connosco!</span>
+  </a>
+
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ciência no Ponto — Aulas online de Matemática, Física, Química, Informática e Contabilidade. Centro de explicações presenciais em Maputo." />
+  <title>Ciência no Ponto — Início</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__container">
+      <a href="index.html" class="navbar__brand" aria-label="Ciência no Ponto — início">
+        <img src="assets/images/1000420528.jpg" alt="Logo Ciência no Ponto" class="navbar__logo" />
+        <span class="navbar__brand-text">Ciência<span class="accent"> no Ponto</span></span>
+      </a>
+      <button class="navbar__hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="navbar__menu" id="nav-menu" aria-label="Navegação principal">
+        <ul class="navbar__list">
+          <li><a href="index.html" class="navbar__link active">Início</a></li>
+          <li><a href="sobre.html" class="navbar__link">Sobre Nós</a></li>
+          <li><a href="servicos.html" class="navbar__link">Serviços</a></li>
+          <li><a href="redes.html" class="navbar__link">Redes Sociais</a></li>
+          <li><a href="marcar-aula.html" class="navbar__link navbar__link--cta">Marcar Aula</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ══ HERO ══ -->
+    <section class="hero" id="hero">
+      <div class="hero__bg-shapes" aria-hidden="true">
+        <div class="shape shape--1"></div>
+        <div class="shape shape--2"></div>
+        <div class="shape shape--3"></div>
+      </div>
+      <div class="hero__container">
+        <div class="hero__content">
+          <span class="hero__badge">Centro Educacional · Maputo</span>
+          <h1 class="hero__title">
+            Aprender<br />
+            <span class="accent">ciência</span> com clareza.
+          </h1>
+          <p class="hero__subtitle">
+            Aulas online gratuitas no YouTube e explicações presenciais individuais
+            ou em grupo. Preparação especializada para exames de admissão universitária.
+          </p>
+          <div class="hero__actions">
+            <a href="marcar-aula.html" class="btn btn--primary btn--lg">
+              <i class="fas fa-calendar-check"></i> Marcar Aula
+            </a>
+            <a href="https://www.youtube.com/@AlbinoAlberto-jm5zz" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--lg">
+              <i class="fab fa-youtube"></i> Canal YouTube
+            </a>
+          </div>
+          <div class="hero__stats">
+            <div class="hero__stat"><strong>200+</strong><span>Alunos ajudados</span></div>
+            <div class="hero__stat"><strong>5</strong><span>Disciplinas</span></div>
+            <div class="hero__stat"><strong>5+</strong><span>Anos de experiência</span></div>
+          </div>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__image-wrapper">
+            <img
+              src="assets/images/1000420528.jpg"
+              alt="Ciência no Ponto — Logo"
+              class="hero__logo-img"
+              loading="eager"
+            />
+          </div>
+          <div class="hero__floating-card hero__floating-card--1"><i class="fas fa-calculator"></i> Matemática</div>
+          <div class="hero__floating-card hero__floating-card--2"><i class="fas fa-atom"></i> Física</div>
+          <div class="hero__floating-card hero__floating-card--3"><i class="fas fa-flask"></i> Química</div>
+          <div class="hero__floating-card hero__floating-card--4"><i class="fas fa-laptop-code"></i> Informática</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ STATS BAR ══ -->
+    <section class="stats-bar">
+      <div class="container">
+        <div class="stats-bar__grid">
+          <div class="stats-bar__item">
+            <i class="fab fa-youtube"></i>
+            <div>
+              <strong>Canal YouTube</strong>
+              <span>Aulas gratuitas online</span>
+            </div>
+          </div>
+          <div class="stats-bar__item">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <div>
+              <strong>Explicações Presenciais</strong>
+              <span>Maputo, Bagamoyo</span>
+            </div>
+          </div>
+          <div class="stats-bar__item">
+            <i class="fas fa-trophy"></i>
+            <div>
+              <strong>Exames de Admissão</strong>
+              <span>Preparação especializada</span>
+            </div>
+          </div>
+          <div class="stats-bar__item">
+            <i class="fas fa-users"></i>
+            <div>
+              <strong>200+ Alunos</strong>
+              <span>Já aprovados</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ SOBRE — resumo ══ -->
+    <section class="section landing-sobre">
+      <div class="container">
+        <div class="landing-sobre__layout">
+          <div class="landing-sobre__visual">
+            <img
+              src="assets/images/Centro.jpg"
+              alt="Sala de aula do centro Ciência no Ponto"
+              class="landing-sobre__img"
+              loading="lazy"
+            />
+            <div class="landing-sobre__badge">
+              <i class="fas fa-map-marker-alt"></i> Maputo, Bagamoyo
+            </div>
+          </div>
+          <div class="landing-sobre__text">
+            <span class="section__badge">Sobre Nós</span>
+            <h2 class="section__title">O que é o Ciência no Ponto?</h2>
+            <p>
+              Somos um canal educativo e centro de explicações presenciais focado nas ciências exatas.
+              Combinamos o alcance global do YouTube com sessões personalizadas para oferecer
+              a melhor experiência de aprendizagem.
+            </p>
+            <ul class="sobre__values" style="margin-top:1rem;">
+              <li><i class="fas fa-check-circle"></i> Clareza e rigor científico</li>
+              <li><i class="fas fa-check-circle"></i> Acompanhamento personalizado</li>
+              <li><i class="fas fa-check-circle"></i> Conteúdo gratuito de qualidade</li>
+              <li><i class="fas fa-check-circle"></i> Foco nos resultados dos alunos</li>
+            </ul>
+            <a href="sobre.html" class="btn btn--primary" style="margin-top:1.75rem;">
+              Conhecer a equipa <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ DISCIPLINAS — preview ══ -->
+    <section class="section landing-disciplinas" style="background:var(--gray-50);">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__badge">Serviços</span>
+          <h2 class="section__title">Disciplinas que ensinamos</h2>
+          <p class="section__subtitle">Online no YouTube ou presencialmente no nosso centro em Maputo.</p>
+        </div>
+        <div class="landing-disc__grid">
+          <a href="servicos.html" class="landing-disc-card landing-disc-card--mat">
+            <div class="landing-disc-card__icon"><i class="fas fa-calculator"></i></div>
+            <h3>Matemática</h3>
+            <p>Do secundário ao universitário, teórico e prático.</p>
+            <span class="landing-disc-card__link">Ver aulas <i class="fas fa-arrow-right"></i></span>
+          </a>
+          <a href="servicos.html" class="landing-disc-card landing-disc-card--fis">
+            <div class="landing-disc-card__icon"><i class="fas fa-atom"></i></div>
+            <h3>Física</h3>
+            <p>Mecânica, termodinâmica, eletricidade e mais.</p>
+            <span class="landing-disc-card__link">Ver aulas <i class="fas fa-arrow-right"></i></span>
+          </a>
+          <a href="servicos.html" class="landing-disc-card landing-disc-card--qui">
+            <div class="landing-disc-card__icon"><i class="fas fa-flask"></i></div>
+            <h3>Química</h3>
+            <p>Orgânica, inorgânica e cálculos estequiométricos.</p>
+            <span class="landing-disc-card__link">Ver aulas <i class="fas fa-arrow-right"></i></span>
+          </a>
+          <a href="servicos.html" class="landing-disc-card landing-disc-card--inf">
+            <div class="landing-disc-card__icon"><i class="fas fa-laptop-code"></i></div>
+            <h3>Informática</h3>
+            <p>Programação, lógica e linguagens de programação.</p>
+            <span class="landing-disc-card__link">Ver aulas <i class="fas fa-arrow-right"></i></span>
+          </a>
+          <a href="servicos.html" class="landing-disc-card landing-disc-card--cont">
+            <div class="landing-disc-card__icon"><i class="fas fa-file-invoice-dollar"></i></div>
+            <h3>Contabilidade</h3>
+            <p>Conceitos e cálculos contabilísticos do básico ao avançado.</p>
+            <span class="landing-disc-card__link">Ver aulas <i class="fas fa-arrow-right"></i></span>
+          </a>
+          <a href="servicos.html" class="landing-disc-card landing-disc-card--adm">
+            <div class="landing-disc-card__icon"><i class="fas fa-trophy"></i></div>
+            <h3>Exames de Admissão</h3>
+            <p>Preparação intensiva para admissões universitárias.</p>
+            <span class="landing-disc-card__link">Saber mais <i class="fas fa-arrow-right"></i></span>
+          </a>
+        </div>
+        <div style="text-align:center;margin-top:2.5rem;">
+          <a href="servicos.html" class="btn btn--outline btn--lg">Ver todos os serviços</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ YOUTUBE destaque ══ -->
+    <section class="section landing-youtube">
+      <div class="container">
+        <div class="landing-youtube__layout">
+          <div class="landing-youtube__text">
+            <span class="section__badge"><i class="fab fa-youtube" style="color:var(--yt-color)"></i> YouTube</span>
+            <h2 class="section__title">Aulas gratuitas no nosso canal</h2>
+            <p>
+              Centenas de aulas organizadas em playlists por disciplina.
+              Aprende ao teu ritmo, em qualquer lugar, totalmente grátis.
+            </p>
+            <div class="landing-youtube__playlists">
+              <a href="https://www.youtube.com/playlist?list=PLQqAK1beIrzw" target="_blank" rel="noopener noreferrer" class="playlist-pill"><i class="fas fa-calculator"></i> Matemática</a>
+              <a href="https://youtube.com/playlist?list=PLT2udzHPcY40" target="_blank" rel="noopener noreferrer" class="playlist-pill"><i class="fas fa-atom"></i> Física</a>
+              <a href="https://youtube.com/playlist?list=PLGgWKidWdRBk" target="_blank" rel="noopener noreferrer" class="playlist-pill"><i class="fas fa-flask"></i> Química</a>
+              <a href="https://youtube.com/playlist?list=PLLnMB-NRNrUc" target="_blank" rel="noopener noreferrer" class="playlist-pill"><i class="fas fa-laptop-code"></i> Informática</a>
+              <a href="https://youtube.com/playlist?list=PLTPJKLlsq69o" target="_blank" rel="noopener noreferrer" class="playlist-pill"><i class="fas fa-file-invoice-dollar"></i> Contabilidade</a>
+            </div>
+            <a href="https://www.youtube.com/@AlbinoAlberto-jm5zz" target="_blank" rel="noopener noreferrer" class="btn btn--primary" style="margin-top:1.75rem;">
+              <i class="fab fa-youtube"></i> Subscrever o Canal
+            </a>
+          </div>
+          <div class="landing-youtube__embed">
+            <div class="youtube__embed-wrapper">
+              <iframe
+                class="youtube__embed"
+                src="https://www.youtube.com/embed/rtR_kNj0pjk"
+                title="Último vídeo — Ciência no Ponto"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen loading="lazy">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ EQUIPA — preview ══ -->
+    <section class="section landing-equipa" style="background:var(--gray-50);">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__badge">A nossa equipa</span>
+          <h2 class="section__title">Quem está por trás do canal</h2>
+          <p class="section__subtitle">Estudantes universitários apaixonados por ensinar.</p>
+        </div>
+        <div class="team__grid">
+          <article class="team-card">
+            <div class="team-card__photo">
+              <img src="assets/images/team/Albino Mugabe.jpg" alt="Prof. Albino Mugabe" class="team-card__img" loading="lazy" />
+            </div>
+            <div class="team-card__info">
+              <h4 class="team-card__name">Prof. Albino Mugabe</h4>
+              <span class="team-card__subject">Matemática · Física · Química</span>
+              <p class="team-card__bio">Engenharia de Telecomunicações — UEM. Especialista em admissões e marketing digital.</p>
+            </div>
+          </article>
+          <article class="team-card">
+            <div class="team-card__photo">
+              <img src="assets/images/team/Claida Uanheca.jpg" alt="Prof. Claida Uanheca" class="team-card__img" loading="lazy" />
+            </div>
+            <div class="team-card__info">
+              <h4 class="team-card__name">Prof. Claida Uanheca</h4>
+              <span class="team-card__subject">Informática · Programação</span>
+              <p class="team-card__bio">Ciência de Dados — Universidade de Nilai, Malásia. Web design e análise de dados.</p>
+            </div>
+          </article>
+          <article class="team-card">
+            <div class="team-card__photo">
+              <img src="assets/images/team/Rosa Mbanguine.jpg" alt="Prof. Rosa Mbanguine" class="team-card__img" loading="lazy" />
+            </div>
+            <div class="team-card__info">
+              <h4 class="team-card__name">Prof. Rosa Mbanguine</h4>
+              <span class="team-card__subject">Contabilidade</span>
+              <p class="team-card__bio">Contabilidade — ISCAM. Serviços de RH e empreendedora na área de culinária.</p>
+            </div>
+          </article>
+          <article class="team-card">
+            <div class="team-card__photo">
+              <img src="assets/images/team/OsvaldoCossa.jpg" alt="Prof. Osvaldo Subiso" class="team-card__img" loading="lazy" />
+            </div>
+            <div class="team-card__info">
+              <h4 class="team-card__name">Prof. Osvaldo Subiso</h4>
+              <span class="team-card__subject">Matemática · Física</span>
+              <p class="team-card__bio">Física — UEM. Aulas do secundário ao universitário e ao domicílio.</p>
+            </div>
+          </article>
+        </div>
+        <div style="text-align:center;margin-top:2.5rem;">
+          <a href="sobre.html" class="btn btn--outline btn--lg">Ver equipa completa</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ CTA final ══ -->
+    <section class="section landing-cta">
+      <div class="container">
+        <div class="landing-cta__inner">
+          <div class="landing-cta__text">
+            <h2>Pronto para começar?</h2>
+            <p>Marca a tua primeira aula hoje mesmo. Resposta garantida em menos de 24 horas.</p>
+          </div>
+          <div class="landing-cta__actions">
+            <a href="marcar-aula.html" class="btn btn--primary btn--lg">
+              <i class="fas fa-calendar-check"></i> Marcar Aula
+            </a>
+            <a href="https://wa.me/258857943333?text=Olá!%20Vim%20pelo%20website%20e%20gostaria%20de%20mais%20informações." target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp btn--lg">
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__brand">
+        <a href="index.html" class="navbar__brand footer__brand-link" aria-label="Ciência no Ponto">
+          <img src="assets/images/1000420528.jpg" alt="Logo Ciência no Ponto" class="navbar__logo navbar__logo--footer" />
+          <span class="navbar__brand-text">Ciência<span class="accent"> no Ponto</span></span>
+        </a>
+        <p>Educação científica de qualidade, online e presencial.</p>
+        <div class="footer__socials">
+          <a href="https://www.youtube.com/@AlbinoAlberto-jm5zz" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.instagram.com/cien_cianoponto3?igsh=NXdtbTJ2azNxZTk3" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61561754653586" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.tiktok.com/@ciencia.no.ponto" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <nav class="footer__nav" aria-label="Mapa do site">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="redes.html">Redes Sociais</a></li>
+          <li><a href="marcar-aula.html">Marcar Aula</a></li>
+        </ul>
+      </nav>
+      <div class="footer__contact">
+        <h4>Contacto</h4>
+        <p><i class="fab fa-whatsapp"></i> +258 857 943 333</p>
+        <p><i class="fas fa-envelope"></i> albinoalberto500@gmail.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Moçambique, Maputo, Bagamoyo</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2026 Ciência no Ponto. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/258857943333?text=Olá!%20Vim%20pelo%20website%20e%20gostaria%20de%20mais%20informações."
+    target="_blank" rel="noopener noreferrer"
+    class="whatsapp-float" id="whatsappFloat" aria-label="Abrir conversa no WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="whatsapp-float__tooltip">Fala connosco!</span>
+  </a>
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>

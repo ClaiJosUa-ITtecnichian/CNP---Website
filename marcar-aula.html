@@ -1,0 +1,357 @@
+﻿<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ciência no Ponto — Aulas online de Matemática, Física, Química e Informática." />
+  <title>Ciência no Ponto</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="navbar__container">
+      <a href="index.html" class="navbar__brand" aria-label="Ciência no Ponto — início">
+        <img src="assets/images/1000420528.jpg" alt="Logo Ciência no Ponto" class="navbar__logo" />
+        <span class="navbar__brand-text">Ciência<span class="accent"> no Ponto</span></span>
+      </a>
+      <button class="navbar__hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="navbar__menu" id="nav-menu" aria-label="Navegação principal">
+        <ul class="navbar__list">
+          <li><a href="index.html" class="navbar__link">Início</a></li>
+          <li><a href="sobre.html" class="navbar__link">Sobre Nós</a></li>
+          <li><a href="servicos.html" class="navbar__link">Serviços</a></li>
+          <li><a href="redes.html" class="navbar__link">Redes Sociais</a></li>
+          <li><a href="marcar-aula.html" class="navbar__link navbar__link--cta active">Marcar Aula</a></li>
+        </ul>
+      </nav></div>
+  </header>
+
+  <main>
+
+    <!-- BANNER MARCAR AULA -->
+    <div class="page-banner page-banner--booking" style="margin-top:var(--nav-h);">
+      <div class="page-banner__container">
+        <div class="booking-banner__layout">
+          <div class="booking-banner__text">
+            <span class="section__badge">
+              <i class="fas fa-calendar-check"></i> Reserva a tua sessão
+            </span>
+            <h1 class="page-banner__title">Marca a tua Aula</h1>
+            <p class="page-banner__subtitle">
+              Consulta os horários disponíveis e entra em contacto connosco.
+              Respondemos em menos de 24 horas.
+            </p>
+            <div class="booking-banner__pills">
+              <span><i class="fas fa-clock"></i> Seg – Sex · 08h–10h e 16h–18h</span>
+              <span><i class="fas fa-map-marker-alt"></i> Maputo, Bagamoyo</span>
+              <span><i class="fab fa-whatsapp"></i> +258 857 943 333</span>
+            </div>
+          </div>
+          <div class="booking-banner__actions">
+            <a href="#horarios" class="btn btn--banner-primary">
+              <i class="fas fa-calendar-alt"></i> Ver Horários
+            </a>
+            <a href="#contacto" class="btn btn--banner-outline">
+              <i class="fas fa-paper-plane"></i> Enviar Mensagem
+            </a>
+            <a href="https://wa.me/258857943333?text=Olá!%20Gostaria%20de%20marcar%20uma%20aula." target="_blank" rel="noopener noreferrer" class="btn btn--banner-wa">
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HORÁRIOS -->
+    <section class="section horarios" id="horarios">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__badge">Horários</span>
+          <h2 class="section__title">Disponibilidade Semanal</h2>
+          <p class="section__subtitle">Consulta os horários disponíveis para explicações presenciais e marca a tua sessão.</p>
+        </div>
+        <div class="horarios__wrapper">
+          <div class="horarios__table-container" role="region" tabindex="0">
+            <table class="horarios__table">
+              <thead>
+                <tr>
+                  <th scope="col">Horário</th>
+                  <th scope="col">Segunda-feira</th>
+                  <th scope="col">Terça-feira</th>
+                  <th scope="col">Quarta-feira</th>
+                  <th scope="col">Quinta-feira</th>
+                  <th scope="col">Sexta-feira</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row"><small>Disciplina</small></th>
+                  <td class="slot slot--label"><i class="fas fa-calculator"></i> <span>Matemática</span></td>
+                  <td class="slot slot--label"><i class="fas fa-calculator"></i> <span>Matemática</span></td>
+                  <td class="slot slot--free" rowspan="2">
+                    <i class="fas fa-mug-hot"></i><br/>
+                    <strong>Dia livre</strong><br/>
+                    <small>Sem aulas — aproveite para descansar ou rever a matéria</small>
+                  </td>
+                  <td class="slot slot--label"><i class="fas fa-atom"></i> <span>Física</span></td>
+                  <td class="slot slot--label"><i class="fas fa-atom"></i> <span>Física</span></td>
+                </tr>
+                <tr>
+                  <th scope="row">08h00 – 10h00</th>
+                  <td class="slot slot--available"><span class="slot__badge slot__badge--teorico">Teórico</span></td>
+                  <td class="slot slot--available slot--pratico"><span class="slot__badge slot__badge--pratico">Prático</span></td>
+                  <td class="slot slot--available"><span class="slot__badge slot__badge--teorico">Teórico</span></td>
+                  <td class="slot slot--available slot--pratico"><span class="slot__badge slot__badge--pratico">Prático</span></td>
+                </tr>
+                <tr>
+                  <th scope="row">16h00 – 18h00</th>
+                  <td class="slot slot--available"><span class="slot__badge slot__badge--teorico">Teórico</span></td>
+                  <td class="slot slot--available slot--pratico"><span class="slot__badge slot__badge--pratico">Prático</span></td>
+                  <td class="slot slot--free">—</td>
+                  <td class="slot slot--available"><span class="slot__badge slot__badge--teorico">Teórico</span></td>
+                  <td class="slot slot--available slot--pratico"><span class="slot__badge slot__badge--pratico">Prático</span></td>
+                </tr>
+                <tr>
+                  <th scope="row">Sábado &amp; Domingo</th>
+                  <td colspan="5" class="slot slot--closed slot--full">Encerrado</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="horarios__legend">
+            <span class="legend-item"><span class="legend-dot" style="background:var(--blue-400)"></span> <span>Teórico</span></span>
+            <span class="legend-item"><span class="legend-dot" style="background:#16a34a"></span> <span>Prático</span></span>
+            <span class="legend-item"><span class="legend-dot" style="background:var(--gray-300)"></span> <span>Dia livre / Encerrado</span></span>
+          </div>
+        </div>
+
+        <div class="horarios__extra">
+          <div class="horarios__note">
+            <div class="note-card">
+              <i class="fab fa-whatsapp note-card__icon"></i>
+              <div>
+                <h4>Horário fora do normal?</h4>
+                <p>Se nenhum dos horários disponíveis se adequar à tua agenda, fala connosco via WhatsApp e encontramos uma solução personalizada.</p>
+                <a href="https://wa.me/258857943333?text=Olá!%20Gostaria%20de%20marcar%20uma%20sessão%20fora%20do%20horário%20normal." target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--sm">
+                  <i class="fab fa-whatsapp"></i> <span>Falar connosco</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="horarios__location">
+            <div class="location-card">
+              <i class="fas fa-map-marker-alt location-card__icon"></i>
+              <div>
+                <h4>Localização do Centro</h4>
+                <p>Moçambique, Maputo<br/>Bagamoyo</p>
+                <div class="map-placeholder">
+                  <i class="fas fa-map"></i>
+                  <span>Mapa incorporado</span>
+                </div>
+                <a href="https://maps.app.goo.gl/BXx4EStSzjxySEQ47" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--sm" style="margin-top:.75rem;">
+                  <i class="fas fa-map-marker-alt"></i> <span>Ver no Google Maps</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARCAR AULA / CONTACTO -->
+    <section class="section contacto" id="contacto">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__badge">Marcar Aula</span>
+          <h2 class="section__title">Fala connosco</h2>
+          <p class="section__subtitle">Preenche o formulário e respondemos em menos de 24 horas.</p>
+        </div>
+        <div class="contacto__layout">
+          <div class="contacto__form-wrapper">
+            <form class="contacto__form" id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="nome"><span>Nome completo</span> <span aria-hidden="true">*</span></label>
+                  <input type="text" id="nome" name="nome" placeholder="O teu nome" required autocomplete="name" />
+                  <span class="form-error" id="nome-error" role="alert"></span>
+                </div>
+                <div class="form-group">
+                  <label for="email"><span>E-mail</span> <span aria-hidden="true">*</span></label>
+                  <input type="email" id="email" name="email" placeholder="teu@email.com" required autocomplete="email" />
+                  <span class="form-error" id="email-error" role="alert"></span>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="telefone"><span>Telefone / WhatsApp</span> <span class="form-optional">(opcional)</span></label>
+                  <div class="phone-input">
+                    <select id="telefone-pais" name="telefone_pais" class="phone-input__select" aria-label="Indicativo do país">
+                      <option value="+93">🇦🇫 +93</option><option value="+355">🇦🇱 +355</option><option value="+213">🇩🇿 +213</option>
+                      <option value="+244">🇦🇴 +244</option><option value="+54">🇦🇷 +54</option><option value="+61">🇦🇺 +61</option>
+                      <option value="+32">🇧🇪 +32</option><option value="+55">🇧🇷 +55</option><option value="+1">🇨🇦 +1</option>
+                      <option value="+86">🇨🇳 +86</option><option value="+57">🇨🇴 +57</option><option value="+242">🇨🇬 +242</option>
+                      <option value="+243">🇨🇩 +243</option><option value="+45">🇩🇰 +45</option><option value="+20">🇪🇬 +20</option>
+                      <option value="+34">🇪🇸 +34</option><option value="+1">🇺🇸 +1</option><option value="+251">🇪🇹 +251</option>
+                      <option value="+358">🇫🇮 +358</option><option value="+33">🇫🇷 +33</option><option value="+241">🇬🇦 +241</option>
+                      <option value="+233">🇬🇭 +233</option><option value="+30">🇬🇷 +30</option><option value="+224">🇬🇳 +224</option>
+                      <option value="+245">🇬🇼 +245</option><option value="+240">🇬🇶 +240</option><option value="+91">🇮🇳 +91</option>
+                      <option value="+62">🇮🇩 +62</option><option value="+353">🇮🇪 +353</option><option value="+972">🇮🇱 +972</option>
+                      <option value="+39">🇮🇹 +39</option><option value="+81">🇯🇵 +81</option><option value="+254">🇰🇪 +254</option>
+                      <option value="+82">🇰🇷 +82</option><option value="+218">🇱🇾 +218</option><option value="+352">🇱🇺 +352</option>
+                      <option value="+261">🇲🇬 +261</option><option value="+265">🇲🇼 +265</option><option value="+60">🇲🇾 +60</option>
+                      <option value="+223">🇲🇱 +223</option><option value="+52">🇲🇽 +52</option>
+                      <option value="+258" selected>🇲🇿 +258</option>
+                      <option value="+212">🇲🇦 +212</option><option value="+264">🇳🇦 +264</option><option value="+31">🇳🇱 +31</option>
+                      <option value="+64">🇳🇿 +64</option><option value="+234">🇳🇬 +234</option><option value="+47">🇳🇴 +47</option>
+                      <option value="+92">🇵🇰 +92</option><option value="+48">🇵🇱 +48</option><option value="+351">🇵🇹 +351</option>
+                      <option value="+40">🇷🇴 +40</option><option value="+7">🇷🇺 +7</option><option value="+250">🇷🇼 +250</option>
+                      <option value="+966">🇸🇦 +966</option><option value="+221">🇸🇳 +221</option><option value="+232">🇸🇱 +232</option>
+                      <option value="+65">🇸🇬 +65</option><option value="+27">🇿🇦 +27</option><option value="+211">🇸🇸 +211</option>
+                      <option value="+46">🇸🇪 +46</option><option value="+41">🇨🇭 +41</option><option value="+255">🇹🇿 +255</option>
+                      <option value="+66">🇹🇭 +66</option><option value="+228">🇹🇬 +228</option><option value="+216">🇹🇳 +216</option>
+                      <option value="+90">🇹🇷 +90</option><option value="+256">🇺🇬 +256</option><option value="+380">🇺🇦 +380</option>
+                      <option value="+971">🇦🇪 +971</option><option value="+44">🇬🇧 +44</option><option value="+598">🇺🇾 +598</option>
+                      <option value="+58">🇻🇪 +58</option><option value="+84">🇻🇳 +84</option>
+                      <option value="+260">🇿🇲 +260</option><option value="+263">🇿🇼 +263</option>
+                    </select>
+                    <input type="tel" id="telefone" name="telefone" class="phone-input__number" placeholder="857 943 333" autocomplete="tel-national" />
+                  </div>
+                  <span class="form-hint">Seleciona o país e escreve o número sem o indicativo.</span>
+                </div>
+                <div class="form-group">
+                  <label for="disciplina"><span>Disciplina de interesse</span> <span aria-hidden="true">*</span></label>
+                  <select id="disciplina" name="disciplina" required>
+                    <option value="" disabled selected>Escolhe uma disciplina</option>
+                    <option value="matematica">Matemática</option>
+                    <option value="fisica">Física</option>
+                    <option value="quimica">Química</option>
+                    <option value="informatica">Informática</option>
+                    <option value="contabilidade">Contabilidade</option>
+                    <option value="multiplas">Múltiplas disciplinas</option>
+                    <option value="outro">Outro / Geral</option>
+                  </select>
+                  <span class="form-error" id="disciplina-error" role="alert"></span>
+                </div>
+              </div>
+
+              <!-- Múltiplas disciplinas -->
+              <div class="form-group multiplas-wrapper" id="multiplasWrapper" hidden>
+                <label>Seleciona as disciplinas</label>
+                <div class="multiplas-grid">
+                  <label class="checkbox-item"><input type="checkbox" name="disc_check" value="Matemática" /><span class="checkbox-box"></span><i class="fas fa-calculator"></i> <span>Matemática</span></label>
+                  <label class="checkbox-item"><input type="checkbox" name="disc_check" value="Física" /><span class="checkbox-box"></span><i class="fas fa-atom"></i> <span>Física</span></label>
+                  <label class="checkbox-item"><input type="checkbox" name="disc_check" value="Química" /><span class="checkbox-box"></span><i class="fas fa-flask"></i> <span>Química</span></label>
+                  <label class="checkbox-item"><input type="checkbox" name="disc_check" value="Informática" /><span class="checkbox-box"></span><i class="fas fa-laptop-code"></i> <span>Informática</span></label>
+                  <label class="checkbox-item"><input type="checkbox" name="disc_check" value="Contabilidade" /><span class="checkbox-box"></span><i class="fas fa-file-invoice-dollar"></i> <span>Contabilidade</span></label>
+                </div>
+                <div class="form-group" style="margin-top:.75rem;margin-bottom:0;">
+                  <label for="outraDisciplina">Outra disciplina não listada?</label>
+                  <input type="text" id="outraDisciplina" name="outra_disciplina" placeholder="Ex: Biologia, História, Inglês…" />
+                  <span class="form-hint">Opcional — escreve o nome da disciplina.</span>
+                </div>
+                <span class="form-error" id="multiplas-error" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="mensagem"><span>Mensagem</span> <span aria-hidden="true">*</span></label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Descreve o teu objetivo..." required></textarea>
+                <span class="form-error" id="mensagem-error" role="alert"></span>
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn btn--primary btn--lg btn--full" id="submitBtn">
+                  <span class="btn-text"><i class="fas fa-paper-plane"></i> <span>Enviar Mensagem</span></span>
+                  <span class="btn-loading" aria-hidden="true"><i class="fas fa-spinner fa-spin"></i> <span>A enviar...</span></span>
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <aside class="contacto__sidebar">
+            <div class="contacto__sidebar-card">
+              <h3>Preferes falar diretamente?</h3>
+              <p>Envia-nos uma mensagem no WhatsApp e respondemos ainda hoje.</p>
+              <a href="https://wa.me/258857943333?text=Olá!" target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp btn--full">
+                <i class="fab fa-whatsapp"></i> <span>Abrir WhatsApp</span>
+              </a>
+            </div>
+            <div class="contacto__sidebar-card contacto__sidebar-card--info">
+              <h4><i class="fas fa-clock"></i> <span>Tempo de resposta</span></h4>
+              <p>Respondemos em menos de 24 horas nos dias úteis.</p>
+              <h4><i class="fas fa-map-marker-alt"></i> <span>Localização</span></h4>
+              <p>Moçambique, Maputo, Bagamoyo</p>
+              <h4><i class="fas fa-envelope"></i> <span>E-mail</span></h4>
+              <p>albinoalberto500@gmail.com</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__brand">
+        <a href="index.html" class="navbar__brand footer__brand-link">
+          <img src="assets/images/1000420528.jpg" alt="Logo Ciência no Ponto" class="navbar__logo navbar__logo--footer" />
+          <span class="navbar__brand-text">Ciência<span class="accent"> no Ponto</span></span>
+        </a>
+        <p>Educação científica de qualidade, online e presencial.</p>
+        <div class="footer__socials">
+          <a href="https://www.youtube.com/@AlbinoAlberto-jm5zz" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.instagram.com/cien_cianoponto3?igsh=NXdtbTJ2azNxZTk3" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61561754653586" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.tiktok.com/@ciencia.no.ponto" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <nav class="footer__nav">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="redes.html">Redes Sociais</a></li>
+          <li><a href="marcar-aula.html#horarios">Horários</a></li>
+          <li><a href="marcar-aula.html">Marcar Aula</a></li>
+        </ul>
+      </nav>
+      <div class="footer__contact">
+        <h4>Contacto</h4>
+        <p><i class="fab fa-whatsapp"></i> +258 857 943 333</p>
+        <p><i class="fas fa-envelope"></i> albinoalberto500@gmail.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Moçambique, Maputo, Bagamoyo</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2026 Ciência no Ponto. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Pop-up de sucesso -->
+  <div class="popup-overlay" id="popupOverlay" aria-hidden="true">
+    <div class="popup" role="dialog" aria-modal="true">
+      <div class="popup__icon"><i class="fas fa-check-circle"></i></div>
+      <h3 class="popup__title">Mensagem enviada!</h3>
+      <p class="popup__text"><span>Obrigado pelo teu contacto. Responderemos em breve.</span><br/><strong id="popupNome"></strong> — <strong id="popupEmail"></strong></p>
+      <button class="btn btn--primary popup__btn" id="popupClose">Fechar</button>
+    </div>
+  </div>
+
+  <a href="https://wa.me/258857943333?text=Olá!%20Vim%20pelo%20website." target="_blank" rel="noopener noreferrer" class="whatsapp-float" id="whatsappFloat" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="whatsapp-float__tooltip">Fala connosco!</span>
+  </a>
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo"><i class="fas fa-chevron-up"></i></button>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+

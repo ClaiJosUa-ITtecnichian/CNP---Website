@@ -1,0 +1,17 @@
+Coloca aqui a imagem principal do Hero (topo da página).
+
+Formato recomendado: JPG ou WebP
+Dimensão ideal: 840×630 px (proporção 4:3)
+Tamanho máximo: 300 KB
+
+Sugestão de nome:
+  hero-principal.jpg
+
+Depois de adicionares a imagem, substitui no index.html o bloco:
+  <div class="hero__image-placeholder">
+      <i class="fas fa-graduation-cap"></i>
+      <span>Foto / Ilustração Principal</span>
+  </div>
+
+Por:
+  <img src="assets/images/hero/hero-principal.jpg" alt="Ciência no Ponto — aulas de excelência" width="840" height="630" loading="eager" />
